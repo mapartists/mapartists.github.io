@@ -7,4 +7,8 @@ function shuffleArray(array) {
     return array;
 }
 
-console.log(shuffleArray([1,2,3]));
+function randomizeShops() {
+    shuffleArray(Array.from(document.querySelectorAll('li.shop'))).forEach(shop => { shop.parentNode.appendChild(shop) });
+}
+
+randomizeShops();
