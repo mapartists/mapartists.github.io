@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <title>{{ page.title | default: site.title }}</title>
+</head>
+<body>
+    <div class="site-wrapper">
+        <h1>{{site.title}}</h1>
+        <h2 class="subtitle">{{site.subtitle}}</h2>
+        <div class="description">
+            <p>
+                {{site.description}}
+            </p>
+        </div>
+        <div class="main-content">
+            <ul>
+                {% for shop in site.data.shops %}
+                    <li class="shop">
+                        <a href="{{ shop.link }}" target="_blank"><img src="{{ site.baseurl }}/assets/img/{{ shop.image }}" alt="{{ shop.name }}"></a>
+                        <h3 class="shop-name"><a href="{{ shop.link }}" target="_blank">{{ shop.name }}</a></h3>
+                        <p class="shop-description">{{ shop.description }}</p>
+                        
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <script src="{{ site.baseurl }}/assets/js/main.js" defer></script>
+</body>
+</html>
