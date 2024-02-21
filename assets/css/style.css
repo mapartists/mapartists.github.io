@@ -5,6 +5,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 strong {
@@ -19,17 +20,22 @@ div.site-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 42px;
     margin: 40px 0 20px 0;
+    text-align: center;
 }
 
 h2.subtitle {
     font-weight: 400;
     font-size: 28px;
     margin: 10px 0;
+    text-align: center;
 }
 
 div.description {
@@ -60,6 +66,7 @@ div.main-content ul li.shop {
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
+    max-width: calc(100% - 40px);
 }
 
 h3.shop-name {
@@ -77,21 +84,15 @@ li.shop p.shop-link a {
     text-decoration: none;
 }
 
-li.shop img {
-    width: 400px;
-    height: 300px;
-}
-
 li.shop div.carousel {
     display: flex;
-    width: 400px;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 li.shop div.carousel img {
-    width: 400px;
-    height: 300px;
+    width: 100%;
     display: none;
 }
 
