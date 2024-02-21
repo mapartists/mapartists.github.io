@@ -29,13 +29,13 @@
                                 {% endfor %}
                                 {% if shop.images.size > 1 %}
                                     <div class="carousel-controls">
-                                        <button class="carousel-control-button previous">&lt;</button>
+                                        <button aria-label="previous image" class="carousel-control-button previous">&lt;</button>
                                         <div class="image-dots">
                                             {% for image in shop.images %}
-                                                <button class="image-dot {% if forloop.first == true %} active {% endif %}">&bull;</button>
+                                                <button aria-label="change image" class="image-dot {% if forloop.first == true %} active {% endif %}">&bull;</button>
                                             {% endfor %}
                                         </div>
-                                        <button class="carousel-control-button next">&gt;</button>
+                                        <button aria-label="next image" class="carousel-control-button next">&gt;</button>
                                     </div>
                                 {% endif %}
                             </div>    

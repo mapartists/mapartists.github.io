@@ -56,8 +56,7 @@ div.main-content ul li.shop {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
-    background-color: #f7f7f7;
+    width: 400px;
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
@@ -112,7 +111,7 @@ li.shop div.carousel .carousel-controls {
 button.carousel-control-button {
     font-size: 20px;
     transform: scaleY(1.5);
-    -webkit-text-stroke: 1px rgba(255,255,255,.25);
+    -webkit-text-stroke: 1px rgba(255,255,255,.5);
 }
 
 button.carousel-control-button, button.image-dot {
