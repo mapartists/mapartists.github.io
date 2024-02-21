@@ -1,197 +1,233 @@
 - name: somethingaboutmaps
   description: |
     Daniel Huffman offers an eclectic variety of detailed maps that are often centered around islands, nature, and the Great Lakes — including a popular series that depicts many of the rivers of North America re-worked as subway maps.
-  image: somethingaboutmaps.jpg
+  images:
+    - src: somethingaboutmaps1.jpg
+      text: Landforms of Michigan
+    - src: somethingaboutmaps2.jpg
+    - src: somethingaboutmaps3.jpg
   link: https://somethingaboutmaps.com/Storefront
 
 - name: Muncie Map Co.
   description: |
     We do custom maps, map artwork, digitally restore historic maps, and more. We also have a lot of mappy items and local place-centric design goods.
-  image: munciemapco.jpeg
+  images:
+    - src: munciemapco.jpeg
   link: https://munciemap.com/shop
 
 - name: Mapsburgh
   description: |
     Mapsburgh produces fantasy-style maps of a variety of real places, as well as other artistic cartography.
-  image: mapsburgh.png
+  images:
+    - src: mapsburgh.png
   link: https://www.etsy.com/shop/mapsburgh
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Upstate Cartography
   description: |
     I primarily create unique, digitally enhanced, watercolor pencil maps suitable for display in a home or office. I also create maps completely digitally, but that have a look that is hand drawn and/or painted.
-  image: upstatecartography.jpg
+  images:
+    - src: upstatecartography.jpg
   link: https://www.etsy.com/shop/UpstateCartography
 
 - name: WitMaps by Julie Witmer Custom Map Design
   description: |
     WitMaps offers a variety of maps and map-themed posters and prints, clothing, tote bags, face masks, and more. Julie also creates personalized custom maps as gifts.
-  image: witmaps.png
+  images:
+    - src: witmaps.png
   link: https://juliewitmermaps.com/pages/shop
 
 - name: Map Wall
   description: |
     City map prints. Currently we have three color: Coral, minimalist and blueprint. Choose any city in the world and personalize text for your map. We also make other maps by commission. Contact us at <a href="mailto:map.wall@gmail.com">map.wall@gmail.com</a>
-  image: mapwall.jpg
+  images:
+    - src: mapwall.jpg
   link: https://www.instagram.com/map.wall
 
 - name: MM Maps
   description: |
     MM Maps is a bespoke map-making and GIS services shop owned and operated by Michael McNeil, a cartographer from southeast Louisiana.
-  image: mmmaps.png
+  images:
+    - src: mmmaps.png
   link: https://mm-maps.com/for-sale
 
 - name: Sasha's Maps
   description: |
     Creator of the Roman Roads subway map! Purchase ultra high resolution files that you can print anywhere.
-  image: sashasmaps.png
+  images:
+    - src: sashasmaps.png
   link: https://sashamaps.net/support
 
 - name: Green Goat Maps
   description: |
     We are researchers at heart – our partner company Adirondack Research (adkres.org) does GIS mapping and environmental research all over the world. We are taking our experience and love for the environment to create world class maps.
-  image: greengoat.jpg
+  images:
+    - src: greengoat.jpg
   link: https://greengoatmaps.com
 
 - name: Transit Maps Print Store
   description: |
     A wide range of transit and transportation map-related prints, both of my original design and of lovingly restored reproductions of vintage maps.
-  image: transitmaps.jpg
+  images:
+    - src: transitmaps.jpg
   link: https://transitmap.net/store
 
 - name: Great American Eclipse maps, globe, and atlas
   description: |
     Great American Eclipse is operated by GIS professional and eclipse chaser Michael Zeiler, serving maps of coming solar eclipses, especially the coming 2023 and 2024 solar eclipses over North America
-  image: eclipse.jpg
+  images:
+    - src: eclipse.jpg
   link: https://greatamericaneclipse.com
 
 - name: Maps by Philip Mallis
   description: |
     Lots of maps. Mainly about transport and related to Melbourne.
-  image: philipmallis.png
+  images:
+    - src: philipmallis.png
   link: https://www.redbubble.com/people/pmallis/shop
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: TheMapSmith Shop
   description: |
     Stephen Smith is a friendly cartographer from Vermont that makes pretty maps. Sometimes they go on shirts.
-  image: mapsmith.jpg
+  images:
+    - src: mapsmith.jpg
   link: https://shop.mapsmith.net
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com
 
 - name: Geosprocket Planet
   description: |
     A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  image: geosprocket.jpg
+  images:
+    - src: geosprocket.jpg
   link: https://geosprocket.bigcartel.com

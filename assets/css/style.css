@@ -56,7 +56,7 @@ div.main-content ul li.shop {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 450px;
     background-color: #f7f7f7;
     margin: 20px 0;
     padding: 20px;
@@ -79,8 +79,58 @@ li.shop p.shop-link a {
 }
 
 li.shop img {
-    width: 300px;
+    width: 400px;
     height: 300px;
+}
+
+li.shop div.carousel {
+    display: flex;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+li.shop div.carousel img {
+    width: 400px;
+    height: 300px;
+    display: none;
+}
+
+li.shop div.carousel img.active {
+    display: block;
+}
+
+li.shop div.carousel .carousel-controls {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+button.carousel-control-button {
+    font-size: 20px;
+    transform: scaleY(1.5);
+    -webkit-text-stroke: 1px rgba(255,255,255,.25);
+}
+
+button.carousel-control-button, button.image-dot {
+    appearance: none;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+button.image-dot {
+    color: #ccc;
+    font-size: 40px;
+    -webkit-text-stroke: 2px rgba(0,0,0,.5);
+}
+
+button.image-dot.active {
+    color: black;
+    -webkit-text-stroke: 2px rgba(255,255,255,.5);
 }
 
 p.shop-description {

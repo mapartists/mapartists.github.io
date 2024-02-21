@@ -19,10 +19,27 @@
             </p>
         </div>
         <div class="main-content">
-            <ul class="shop-list">
+            <ul>
                 {% for shop in site.data.shops %}
                     <li class="shop">
-                        <a href="{{ shop.link }}" target="_blank"><img src="{{ site.baseurl }}/assets/img/{{ shop.image }}" alt="{{ shop.name }}"></a>
+                        <a href="{{ shop.link }}" target="_blank">
+                            <div class="carousel">
+                                {% for image in shop.images %}
+                                <img src="{{ site.baseurl }}/assets/img/{{ image.src }}" {% if forloop.first == true %} class="active" {% endif %} alt="{{ shop.name }}">
+                                {% endfor %}
+                                {% if shop.images.size > 1 %}
+                                    <div class="carousel-controls">
+                                        <button class="carousel-control-button previous">&lt;</button>
+                                        <div class="image-dots">
+                                            {% for image in shop.images %}
+                                                <button class="image-dot {% if forloop.first == true %} active {% endif %}">&bull;</button>
+                                            {% endfor %}
+                                        </div>
+                                        <button class="carousel-control-button next">&gt;</button>
+                                    </div>
+                                {% endif %}
+                            </div>    
+                        </a>
                         <h3 class="shop-name"><a href="{{ shop.link }}" target="_blank">{{ shop.name }}</a></h3>
                         <p class="shop-description">{{ shop.description }}</p>
                         
