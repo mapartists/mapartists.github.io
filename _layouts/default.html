@@ -30,7 +30,7 @@
                         <div class="carousel">
                             {% for image in shop.images %}
                             <img src="{{ site.baseurl }}/assets/img/{{ image.src }}" {% if forloop.first==true %}
-                                class="active" {% endif %} alt="{{ shop.name }}">
+                                class="active" {% endif %} alt="{{image.text}} from {{ shop.name }}" title="{{image.text}}">
                             {% endfor %}
                         </div>
                         {% if shop.images.size > 1 %}
@@ -48,6 +48,13 @@
                     </a>
                     <h3 class="shop-name"><a href="{{ shop.link }}" target="_blank">{{ shop.name }}</a></h3>
                     <p class="shop-description">{{ shop.description }}</p>
+                    {% if shop.tags.size > 1 %}
+                    <p class="tags">
+                        {% for tag in shop.tags %}
+                            <span class="tag">{{tag}} </span>
+                        {% endfor %}
+                    </p>
+                    {% endif %}
 
                 </li>
                 {% endfor %}
