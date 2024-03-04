@@ -17,7 +17,7 @@ randomizeShops();
 document.querySelectorAll('button.carousel-control-button').forEach(btn => {
     btn.addEventListener('click', e => {
         e.preventDefault();
-        const images = Array.from(e.target.closest('.carousel').querySelectorAll('img'));
+        const images = Array.from(e.target.closest('.shop').querySelectorAll('.carousel img'));
         const dots = Array.from(e.target.parentNode.querySelectorAll('.image-dot'));
         const activeIndex = images.findIndex(img => img.classList.contains('active'));
         images[activeIndex].classList.remove('active');
@@ -33,7 +33,7 @@ document.querySelectorAll('button.carousel-control-button').forEach(btn => {
 document.querySelectorAll('button.image-dot').forEach(btn => {
     btn.addEventListener('click', e => {
         e.preventDefault();
-        const images = Array.from(e.target.closest('.carousel').querySelectorAll('img'));
+        const images = Array.from(e.target.closest('.shop').querySelectorAll('.carousel img'));
         const dots = Array.from(e.target.parentNode.querySelectorAll('.image-dot'));
         const activeIndex = images.findIndex(img => img.classList.contains('active'));
         images[activeIndex].classList.remove('active');
