@@ -20,6 +20,10 @@
   images:
     - src: munciemapco.jpeg
   link: https://munciemap.com/shop
+  tags: 
+    - tag B
+    - tag 2
+    - tag 3
 
 - name: Mapsburgh
   description: |
@@ -27,6 +31,10 @@
   images:
     - src: mapsburgh.png
   link: https://www.etsy.com/shop/mapsburgh
+  tags: 
+    - tag B
+    - tag C
+    - tag 3
 
 - name: Geosprocket Planet
   description: |

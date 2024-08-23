@@ -22,10 +22,25 @@
                 {{site.description}}
             </p>
         </div>
+        
         <div class="main-content">
-            <ul>
+            <div class="tag-list">
+                <h3>Find shops by tag:</h3>
+                <div class="tag-buttons">
+                    {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq %}
+                    {% for tag in tags %}
+                    <button class="tag">{{tag}} </button>
+                    {% endfor %}
+                    <button class="clear-filter">&times; Show all shops</button>
+                </div>
+            </div>
+            <div class="filter-message">
+                <h2>Shops tagged <span class="current-tag"></span></h2>
+            </div>
+            <hr class="filter-top">
+            <ul class="main">
                 {% for shop in site.data.shops %}
-                <li class="shop">
+                <li class="shop" tags="{{ shop.tags | join: ','}}">
                     
                         <div class="carousel">
                             {% for image in shop.images %}
@@ -53,13 +68,20 @@
                     {% if shop.tags.size > 1 %}
                     <p class="tags">
                         {% for tag in shop.tags %}
-                            <span class="tag">{{tag}} </span>
+                            <button class="tag">{{tag}} </button>
                         {% endfor %}
                     </p>
                     {% endif %}
 
                 </li>
                 {% endfor %}
+            </ul>
+            <div class="filter-message">
+                <h2>Other shops</h2>
+            </div>
+            <hr class="filter-top">
+            <ul class="other">
+
             </ul>
         </div>
     </div>

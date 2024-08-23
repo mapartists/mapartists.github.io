@@ -6,6 +6,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    color: #333;
 }
 
 body {
@@ -46,8 +47,101 @@ div.description {
     max-width: 800px;
 }
 
+div.tag-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, .25);
+    width: max(50%, 300px);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+div.tag-list h3 {
+    margin: 0 0 15px 0;
+}
+
+div.tag-list .tag-buttons {
+    line-height: 28px;
+    text-align: center;
+}
+
 div.main-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.main-content .filter-message {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.main-content.filtered .filter-message {
+    display: flex;
+}
+
+div.main-content .filter-message h2 {
+    margin: 15px 0;  
+}
+
+div.main-content .filter-message span.current-tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .4);
+    color: #666;
+}
+
+div.main-content hr.filter-top {
+    width: max(50%, 300px);
+    border-color: #333;
+    position: relative;
+    overflow: visible;
+    display: none;
+}
+
+div.main-content.filtered hr.filter-top {
+    display: block;
+}
+
+div.main-content hr.filter-top:before,
+div.main-content hr.filter-top:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    background: #333;
+    bottom: -6px;
+    left: -6px;
+}
+
+div.main-content hr.filter-top:after {
+    left: auto;
+    right: -6px;
+}
+button.clear-filter {
+    display: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    color: #633;
+    background-color: #fff7f7;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.main-content.filtered button.clear-filter {
+    display: inline-block;
+}
+
+button.clear-filter:hover {
+    text-decoration: underline;
 }
 
 div.main-content ul {
@@ -72,6 +166,10 @@ div.main-content ul li.shop {
     padding: 20px;
     border-radius: 5px;
     max-width: calc(100% - 40px);
+}
+
+div.main-content ul li.shop.hidden {
+    display: none;
 }
 
 h3.shop-name {
@@ -169,7 +267,10 @@ p.tags {
     font-size: .8em;
 }
 
-span.tag {
+button.tag {
+    appearance: none;
+    outline: none;
+    border: none;
     display: inline-block;
     background-color: rgba(255, 255, 255, .4);
     color: #666;
@@ -177,4 +278,11 @@ span.tag {
     padding: 5px;
     border-radius: 5px;
     text-decoration: underline;
+    cursor: pointer;
 }
+
+button.tag.active {
+    background-color: #efe;
+    color: #363;
+}
+
