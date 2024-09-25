@@ -175,6 +175,7 @@ div.main-content ul li.shop.hidden {
 h3.shop-name {
     font-size: 24px;
     margin: 10px 0;
+    text-align: center;
 }
 
 li.shop a {
@@ -199,6 +200,7 @@ li.shop div.carousel {
 
 li.shop div.carousel img {
     width: 400px;
+    max-width: 100%;
     display: none;
 }
 
