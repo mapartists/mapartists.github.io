@@ -44,7 +44,7 @@ function filterByTag(tag) {
     }
 }
 
-//randomizeShops();
+randomizeShops();
 
 
 document.querySelectorAll('button.carousel-control-button').forEach(btn => {

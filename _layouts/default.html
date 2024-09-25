@@ -27,7 +27,7 @@
             <div class="tag-list">
                 <h3>Find shops by tag:</h3>
                 <div class="tag-buttons">
-                    {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq %}
+                    {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
                     {% for tag in tags %}
                     <button class="tag">{{tag}} </button>
                     {% endfor %}
@@ -45,7 +45,7 @@
                         <div class="carousel">
                             {% for image in shop.images %}
                             <a href="{{ shop.link }}" target="_blank">
-                            <img src="{{ site.baseurl }}/assets/img/{{ image.src }}" {% if forloop.first==true %}
+                            <img src="{{ site.baseurl }}/assets/img/shops/{{ image.src }}" {% if forloop.first==true %}
                                 class="active" {% endif %} alt="{{image.text}} from {{ shop.name }}" title="{{image.text}}">
                             </a>
                             {% endfor %}

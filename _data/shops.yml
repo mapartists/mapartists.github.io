@@ -1,247 +1,196 @@
-- name: somethingaboutmaps
-  description: |
-    Daniel Huffman offers an eclectic variety of detailed maps that are often centered around islands, nature, and the Great Lakes — including a popular series that depicts many of the rivers of North America re-worked as subway maps.
-  images:
-    - src: somethingaboutmaps/somethingaboutmaps1.jpg
-      text: Landforms of Michigan
-    - src: somethingaboutmaps/somethingaboutmaps2.jpg
-      text: image description
-    - src: somethingaboutmaps/somethingaboutmaps3.jpg
-      text: image description
-  link: https://somethingaboutmaps.com/Storefront
-  tags: 
-    - tag 1
-    - tag 2
-    - tag 3
+---
+-
+    owner: Stentor Danielson
+    link: https://www.etsy.com/shop/Mapsburgh
+    name: Mapsburgh
+    description: |
+      Mapsburgh specializes in fantasy style maps of real places and other artistic cartography to give you a new perspective on the places you know and love. We can also make custom maps of worlds of your own invention!
+    tags:
+      - fantasy
+      - fictional 
+      - posters
+    images:
+      - src: Stentor Danielson 01.png
+      - src: Stentor Danielson 02.png
+      - src: Stentor Danielson 03.png
+-
+    owner: Matt Parrilla
+    link: https://ramblemaps.com/
+    name: Ramble Maps
+    description: |
+      Minimalist earth art on dynamic media like aluminum and metallic photo paper.
+    tags:
+      - artwork
+      - terrain 
+      - satellite
+    images:
+      - src: Matthew Parrilla 01.jpg
+      - src: Matthew Parrilla 02.jpg
+      - src: Matthew Parrilla 03.jpg
+-
+    owner: Cameron Booth
+    link: https://transitmap.net/store/
+    name: Transit Maps
+    description: |
+      From the creator of the "Transit Maps" blog, a store to sell prints of my original transit map designs as well as a carefully curated selection of reproduction vintage transit-related maps.
+    tags:
+      - posters
+      - transit 
+      - vintage
+    images:
+      - src: Cameron Booth 01.jpg
+      - src: Cameron Booth 02.jpg
+      - src: Cameron Booth 03.jpg
+-
+    owner: Craig Molyneux
+    link: https://www.cartdeco.com.au/store
+    name: CartDeco
+    description: |
+      CartDeco produces large format print-on-demand maps as well as maps for digital download. Current art products include the Earth wall map and Roman Empire map.
+    tags:
+      - posters
+      - hiking 
+      - handmade
+    images:
+      - src: Craig Molyneux 01.jpg
+      - src: Craig Molyneux 02.jpg
+      - src: Craig Molyneux 03.jpg
+-
+    owner: Patrycja
+    link: https://www.etsy.com/pl/shop/mapsbyp
+    name: mapsbyp
+    description: |
+      'My name is Patrycja and I''m the artist behind all the creations in this shop. I studied cartography in Warsaw and I loved the creative part of my studies. Since 2019 I am runing my small shop on etsy and really enjoying it.'
+    tags:
+      - posters
+      - hiking 
+      - wine maps
+    images:
+      - src: Patrycja Krajczynska 01.jpg
+      - src: Patrycja Krajczynska 02.jpg
+      - src: Patrycja Krajczynska 03.jpg
+-
+    owner: Jeremy Goldsmith
+    link: https://www.pyro.global
+    name: Pyro Globes
+    description: |
+      Handmade, splendid, pyrographic wooden globes. One of a kind. Contact me for pricing, customizations, and commissions.
+    tags:
+      - globes
+      - handmade 
+      - wood
+    images:
+      - src: Jeremy Goldsmith 01.jpg
+      - src: Jeremy Goldsmith 02.jpg
+      - src: Jeremy Goldsmith 03.jpg
+-
+    owner: William Morris
+    link: https://geosprocket.bigcartel.com/
+    name: Geosprocket Planet
+    description: |
+      A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
+    tags:
+      - satellite
+      - art 
+      - posters
+    images:
+      - src: Bill Morris 01.png
+      - src: Bill Morris 02.png
+      - src: Bill Morris 03.png
+-
+    owner: RJ Andrews
+    link: https://visionarypress.com/
+    name: Visionary Press
+    description: |
+      Visionary Press celebrates information graphics. We publish prints and books that inform and inspire new ways of seeing and understanding.
+    tags:
+      - books
+      - prints 
+      - apparel
+    images:
+      - src: RJ Andrews 01.jpg
+      - src: RJ Andrews 02.jpg
+      - src: RJ Andrews 03.jpg
+-
+    owner: Iván Cárdenas
+    link: https://www.overlaymaps.com
+    name: Overlaymaps
+    description: |
+      City and country map prints.  Choose any city in the world and one of our styles: Coral, Minimal, Maritime, Ultimate and more! We also make other maps by commission. 
+    tags:
+      - posters
+      - apparel 
+      - artwork
+    images:
+      - src: Iván Cárdenas 01.png
+      - src: Iván Cárdenas 02.png
+      - src: Iván Cárdenas 03.png
+-
+    owner: Anton Thomas
+    link: https://anton-thomas.myshopify.com
+    name: Anton Thomas Art
+    description: |
+      Artist/cartographer Anton Thomas has been drawing maps since childhood, and is known for vivid illustrations with mind-boggling levels of detail. His colored pencil maps, designed to educate and inspire, are tributes to the magic of geography. From Wild World (a world map of nature that took 3 years), to North America: Portrait of a Continent, all his prints are available here.
+    tags:
+      - art
+      - handmade 
+      - animals
+    images:
+      - src: Anton Thomas 01.jpg
+      - src: Anton Thomas 02.jpg
+-
+    owner: Philip Mallis
+    link: https://maps.philipmallis.com/
+    name: Maps by Philip Mallis
+    description: |
+      I make maps of all different types including transport routes, cities and other geospatial data. Mainly in Victoria and Australia.
+    tags:
+      - transport
+      - bicycles 
+      - transit
+    images:
+      - src: Philip Mallis 01.png
+      - src: Philip Mallis 02.png
+-
+    owner: Daniel Huffman
+    link: https://somethingaboutmaps.com/Storefront
+    name: somethingaboutmaps
+    description: |
+      Daniel Huffman offers an eclectic variety of detailed map artworks, including handmade cyanotypes and printed posters. Many of the maps are often centered around islands, nature, and the Great Lakes — including a popular series that depicts many of the rivers of North America re-worked as subway maps.
+    tags:
+      - posters
+      - artwork 
+      - handmade
+    images:
+      - src: Daniel Huffman 01.jpg
+      - src: Daniel Huffman 02.jpg
+      - src: Daniel Huffman 03.jpg
+-
+    owner: Juernjakob Dugge
+    link: https://www.etsy.com/shop/PapercraftMountains
+    name: Papercraft Mountains
+    description: |
+      We produce kits for making 3D paper models of famous mountains. All it takes to build the models is a knife, glue, and some patience.
+    tags:
+      - terrain
+      - mountains 
+      - 3d
+    images:
+      - src: Juernjakob Dugge 01.jpg
+      - src: Juernjakob Dugge 02.jpg
+      - src: Juernjakob Dugge 03.jpg
 
-- name: Muncie Map Co.
-  description: |
-    We do custom maps, map artwork, digitally restore historic maps, and more. We also have a lot of mappy items and local place-centric design goods.
-  images:
-    - src: munciemapco.jpeg
-  link: https://munciemap.com/shop
-  tags: 
-    - tag B
-    - tag 2
-    - tag 3
-
-- name: Mapsburgh
-  description: |
-    Mapsburgh produces fantasy-style maps of a variety of real places, as well as other artistic cartography.
-  images:
-    - src: mapsburgh.png
-  link: https://www.etsy.com/shop/mapsburgh
-  tags: 
-    - tag B
-    - tag C
-    - tag 3
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Upstate Cartography
-  description: |
-    I primarily create unique, digitally enhanced, watercolor pencil maps suitable for display in a home or office. I also create maps completely digitally, but that have a look that is hand drawn and/or painted.
-  images:
-    - src: upstatecartography.jpg
-  link: https://www.etsy.com/shop/UpstateCartography
-
-- name: WitMaps by Julie Witmer Custom Map Design
-  description: |
-    WitMaps offers a variety of maps and map-themed posters and prints, clothing, tote bags, face masks, and more. Julie also creates personalized custom maps as gifts.
-  images:
-    - src: witmaps.png
-  link: https://juliewitmermaps.com/pages/shop
-
-- name: Map Wall
-  description: |
-    City map prints. Currently we have three color: Coral, minimalist and blueprint. Choose any city in the world and personalize text for your map. We also make other maps by commission. Contact us at <a href="mailto:map.wall@gmail.com">map.wall@gmail.com</a>
-  images:
-    - src: mapwall.jpg
-  link: https://www.instagram.com/map.wall
-
-- name: MM Maps
-  description: |
-    MM Maps is a bespoke map-making and GIS services shop owned and operated by Michael McNeil, a cartographer from southeast Louisiana.
-  images:
-    - src: mmmaps.png
-  link: https://mm-maps.com/for-sale
-
-- name: Sasha's Maps
-  description: |
-    Creator of the Roman Roads subway map! Purchase ultra high resolution files that you can print anywhere.
-  images:
-    - src: sashasmaps.png
-  link: https://sashamaps.net/support
-
-- name: Green Goat Maps
-  description: |
-    We are researchers at heart – our partner company Adirondack Research (adkres.org) does GIS mapping and environmental research all over the world. We are taking our experience and love for the environment to create world class maps.
-  images:
-    - src: greengoat.jpg
-  link: https://greengoatmaps.com
-
-- name: Transit Maps Print Store
-  description: |
-    A wide range of transit and transportation map-related prints, both of my original design and of lovingly restored reproductions of vintage maps.
-  images:
-    - src: transitmaps.jpg
-  link: https://transitmap.net/store
-
-- name: Great American Eclipse maps, globe, and atlas
-  description: |
-    Great American Eclipse is operated by GIS professional and eclipse chaser Michael Zeiler, serving maps of coming solar eclipses, especially the coming 2023 and 2024 solar eclipses over North America
-  images:
-    - src: eclipse.jpg
-  link: https://greatamericaneclipse.com
-
-- name: Maps by Philip Mallis
-  description: |
-    Lots of maps. Mainly about transport and related to Melbourne.
-  images:
-    - src: philipmallis.png
-  link: https://www.redbubble.com/people/pmallis/shop
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: TheMapSmith Shop
-  description: |
-    Stephen Smith is a friendly cartographer from Vermont that makes pretty maps. Sometimes they go on shirts.
-  images:
-    - src: mapsmith.jpg
-  link: https://shop.mapsmith.net
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
-
-- name: Geosprocket Planet
-  description: |
-    A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-  images:
-    - src: geosprocket.jpg
-  link: https://geosprocket.bigcartel.com
+-
+    owner: Andy Woodruff
+    link: https://andysmaps.bigcartel.com/
+    name: Andy Woodruff Cartography
+    description: |
+      Any maps that Andy makes and thinks might be nice on your wall, but primarily ones featuring terrain in a feathery, flowing style.
+    tags:
+      - terrain
+      - mountains 
+      - posters
+    images:
+      - src: Andy Woodruff 01.jpg
+      - src: Andy Woodruff 02.jpg
+      - src: Andy Woodruff 03.jpg
