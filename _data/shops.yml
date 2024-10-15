@@ -194,3 +194,32 @@
       - src: Andy Woodruff 01.jpg
       - src: Andy Woodruff 02.jpg
       - src: Andy Woodruff 03.jpg
+
+-
+    owner: Jeff Clark
+    link: https://www.clarkgeomatics.ca
+    name: Clark Geomatics - Hiking and Reference Maps
+    description: |
+      Clark Geo, established in 2001, is an award-winning map design firm that aims to design and publish geographically expressive maps to hang on your walls or take on your hikes.
+    tags:
+      - reference
+      - hiking 
+      - posters
+    images:
+      - src: Jeff Clark 01.jpg
+      - src: Jeff Clark 02.jpg
+      - src: Jeff Clark 03.jpg
+-
+    owner: Ezra Schwartzberg
+    link: https://greengoatmaps.com
+    name: Green Goat Maps
+    description: |
+      Green Goat Maps offers waterproof, foldable recreation maps and custom cartography focused on enhancing outdoor experiences. We specialize in mapping solutions for the land trust community.
+    tags:
+      - land trusts
+      - hiking 
+      - conservation
+    images:
+      - src: Ezra Schwartzberg 01.jpg
+      - src: Ezra Schwartzberg 02.jpg
+      - src: Ezra Schwartzberg 03.jpg
