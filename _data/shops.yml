@@ -223,3 +223,32 @@
       - src: Ezra Schwartzberg 01.jpg
       - src: Ezra Schwartzberg 02.jpg
       - src: Ezra Schwartzberg 03.jpg
+-
+    owner: Jo Hannah Asetre
+    link: https://www.redbubble.com/people/HannahAsetre/shop
+    name: Jo Hannah Asetre
+    description: |
+      Jo Hannah Asetre is a geoscientist and visual communicator, driven by the desire to explore and understand nature and our integrated environment through the lens of art and design. She makes digitally-rendered maps, nature-related artworks, and science infographics art prints, posters, and other custom printed products. 
+    tags:
+      - terrain
+      - geology 
+      - posters
+    images:
+      - src: Jo Hannah Asetre 01.jpg
+      - src: Jo Hannah Asetre 02.jpg
+      - src: Jo Hannah Asetre 03.jpg
+
+-
+    owner: Tim van den Thillart
+    link: https://www.etsy.com/shop/LinesByTim
+    name: Lines by Tim
+    description: |
+      The more metro networks I studied and drew for myself, the more I became to see that they are more than networks, that they do more than map out public transport: they are an icon for the city they belong to. 
+    tags:
+      - artwork
+      - transit 
+      - urban
+    images:
+      - src: Tim Van den Thillart 01.png
+      - src: Tim Van den Thillart 02.png
+      - src: Tim Van den Thillart 03.png
