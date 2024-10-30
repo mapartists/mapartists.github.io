@@ -221,7 +221,7 @@
       - conservation
     images:
       - src: Ezra Schwartzberg 01.jpg
-      - src: Ezra Schwartzberg 02.jpg
+      - src: Ezra Schwartzberg 02.png
       - src: Ezra Schwartzberg 03.jpg
 -
     owner: Jo Hannah Asetre
@@ -277,6 +277,6 @@
       - schematic 
       - metro
     images:
-      - src: Jug Cerovic 01.png
-      - src: Jug Cerovic 02.png
-      - src: Jug Cerovic 03.png
+      - src: Jug Cerovic 01.jpg
+      - src: Jug Cerovic 02.jpg
+      - src: Jug Cerovic 03.jpg
