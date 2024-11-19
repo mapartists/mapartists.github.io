@@ -81,6 +81,47 @@ document.querySelectorAll('button.image-dot').forEach(btn => {
     })
 });
 
+let startX, startY;
+
+document.querySelectorAll('.carousel').forEach(c => {
+    c.addEventListener('touchstart', (event) => {
+        startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+    });
+    
+    c.addEventListener('touchend', (event) => {
+        const endY = event.changedTouches[0].clientY;
+      
+        const diffX = endX - startX;
+        const diffY = endY - startY;
+
+        let next = 0;
+      
+        if (Math.abs(diffX) > Math.abs(diffY)) {
+          if (diffX > 0) {
+            // Swipe right
+            next = -1;
+          } else {
+            // Swipe left
+            next = 1;
+          }
+        }
+        
+        if (next !== 0) {
+            const images = Array.from(c.querySelectorAll('.carousel img'));
+            const dots = Array.from(c.parentNode.querySelectorAll('.image-dot'));
+            const activeIndex = images.findIndex(img => img.classList.contains('active'));
+            images[activeIndex].classList.remove('active');
+            dots[activeIndex].classList.remove('active');
+            let nextIndex = activeIndex + next;
+            if (nextIndex >= images.length) nextIndex = 0;
+            if (nextIndex < 0) nextIndex = images.length - 1;
+            images[nextIndex].classList.add('active');
+            dots[nextIndex].classList.add('active');
+        }
+      });
+});
+
 document.querySelectorAll('.tag').forEach(btn => {
     btn.addEventListener('click', e => {
         e.preventDefault();
