@@ -95,3 +95,7 @@ document.querySelectorAll('button.clear-filter').forEach(btn => {
         filterByTag();
     });
 });
+
+document.querySelector('div.tag-list h3').addEventListener('click', e => {
+    document.querySelector('div.tag-list').classList.toggle('open');
+});

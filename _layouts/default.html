@@ -25,7 +25,7 @@
         
         <div class="main-content">
             <div class="tag-list">
-                <h3>Find shops by tag:</h3>
+                <h3>Find shops by tag <button class="tag-list-toggle"></button></h3>
                 <div class="tag-buttons">
                     {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
                     {% for tag in tags %}
@@ -37,7 +37,7 @@
             <div class="filter-message">
                 <h2>Shops tagged <span class="current-tag"></span></h2>
             </div>
-            <hr class="filter-top">
+            <hr class="filter-top main-header">
             <ul class="main">
                 {% for shop in site.data.shops %}
                 <li class="shop" tags="{{ shop.tags | join: ','}}">

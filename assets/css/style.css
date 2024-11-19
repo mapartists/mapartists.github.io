@@ -58,12 +58,14 @@ div.tag-list {
 }
 
 div.tag-list h3 {
-    margin: 0 0 15px 0;
+    margin: 0;
+    font-weight: 400;
 }
 
 div.tag-list .tag-buttons {
     line-height: 28px;
     text-align: center;
+    margin-top: 15px;
 }
 
 div.main-content {
@@ -288,3 +290,35 @@ button.tag.active {
     color: #363;
 }
 
+button.tag-list-toggle {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    button.tag-list-toggle {
+        display: inline-block;
+        appearance: none;
+        outline: none;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        margin-left: 5px;
+        width: 0; 
+        height: 0; 
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 10px solid #333;
+    }
+
+    div.tag-list .tag-buttons {
+        display: none;
+    }
+
+    div.tag-list.open .tag-buttons {
+        display: block;
+    }
+
+    div.tag-list.open button.tag-list-toggle {
+        transform: rotate(180deg);
+    }
+}
