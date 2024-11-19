@@ -11,19 +11,23 @@ function randomizeShops() {
     shuffleArray(Array.from(document.querySelectorAll('li.shop'))).forEach(shop => { shop.parentNode.appendChild(shop) });
 }
 
+let activeTag;
+
 function filterByTag(tag) {
+    if (tag === activeTag) activeTag = null;
+    else activeTag = tag;
     const allShops = Array.from(document.querySelectorAll('li.shop'));
     const mainList = document.querySelector('ul.main');
     const otherList = document.querySelector('ul.other');
     allShops.forEach(shop => {
-        if (!tag) {
+        if (!activeTag) {
             mainList.appendChild(shop);
             return;
         }
         const tagAttribute = shop.getAttribute('tags');
         if (tagAttribute) {
             const tags = tagAttribute.split(',');
-            if (!tags.includes(tag)) {
+            if (!tags.includes(activeTag)) {
                 otherList.appendChild(shop);
             } else {
                 mainList.appendChild(shop);
@@ -33,14 +37,14 @@ function filterByTag(tag) {
         }
     });
     Array.from(document.querySelectorAll('button.tag')).forEach(button => {
-        if (tag && button.innerHTML.trim() === tag) button.classList.add('active');
+        if (activeTag && button.innerHTML.trim() === activeTag) button.classList.add('active');
         else button.classList.remove('active');
     });
-    if (!tag) {
+    if (!activeTag) {
         document.querySelector('.main-content').classList.remove('filtered');
     } else {
         document.querySelector('.main-content').classList.add('filtered');
-        document.querySelector('.current-tag').innerHTML = tag;
+        document.querySelector('.current-tag').innerHTML = activeTag;
     }
 }
 
