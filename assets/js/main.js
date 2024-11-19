@@ -81,19 +81,17 @@ document.querySelectorAll('button.image-dot').forEach(btn => {
     })
 });
 
-let startX, startY;
+let startX;
 
 document.querySelectorAll('.carousel').forEach(c => {
     c.addEventListener('touchstart', (event) => {
         startX = event.touches[0].clientX;
-        startY = event.touches[0].clientY;
     });
     
     c.addEventListener('touchend', (event) => {
-        const endY = event.changedTouches[0].clientY;
+        const endX = event.changedTouches[0].clientX;
       
         const diffX = endX - startX;
-        const diffY = endY - startY;
 
         let next = 0;
       
