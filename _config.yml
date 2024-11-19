@@ -21,11 +21,11 @@
 title: Independent Map Sellers
 # email: your-email@example.com
 descriptionmeta: >- # this means to ignore newlines until "baseurl:"
-  A shopping guide offered by the Independent Map Artists. Interested in buying something special for the map enthusiasts in your life (or yourself)? Skip the giant poster companies and go straight to the source: there are loads of skilled, independent cartographers out there whose work you can buy!
+  A shopping guide offered by the Independent Map Artists. Interested in buying something special for the map enthusiasts in your life (or yourself)? Skip the giant companies and go straight to the source: there are loads of skilled, independent cartographers out there whose work you can buy!
 subtitle: A shopping guide offered by the <strong>Independent Map Artists</strong>
 description: >
-  Interested in buying something special for the map enthusiasts in your life (or yourself)? Skip the giant poster companies and go straight to the source: there are loads of skilled, independent cartographers out there whose work you can buy!
-domain: awoodruff.github.io
+  Interested in buying something special for the map enthusiasts in your life (or yourself)? Skip the giant companies and go straight to the source: there are loads of skilled, independent cartographers out there whose work you can buy!
+domain: mapartists.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
