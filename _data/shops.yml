@@ -10,9 +10,9 @@
       - fictional 
       - posters
     images:
-      - src: Stentor Danielson 01.png
-      - src: Stentor Danielson 02.png
-      - src: Stentor Danielson 03.png
+      - src: Stentor Danielson 01.jpg
+      - src: Stentor Danielson 02.jpg
+      - src: Stentor Danielson 03.jpg
 -
     owner: Matt Parrilla
     link: https://ramblemaps.com/
@@ -94,9 +94,9 @@
       - art 
       - posters
     images:
-      - src: Bill Morris 01.png
-      - src: Bill Morris 02.png
-      - src: Bill Morris 03.png
+      - src: Bill Morris 01.jpg
+      - src: Bill Morris 02.jpg
+      - src: Bill Morris 03.jpg
 -
     owner: RJ Andrews
     link: https://visionarypress.com/
@@ -122,9 +122,9 @@
       - apparel 
       - artwork
     images:
-      - src: Iván Cárdenas 01.png
-      - src: Iván Cárdenas 02.png
-      - src: Iván Cárdenas 03.png
+      - src: Iván Cárdenas 01.jpg
+      - src: Iván Cárdenas 02.jpg
+      - src: Iván Cárdenas 03.jpg
 -
     owner: Anton Thomas
     link: https://anton-thomas.myshopify.com
@@ -149,8 +149,8 @@
       - bicycles 
       - transit
     images:
-      - src: Philip Mallis 01.png
-      - src: Philip Mallis 02.png
+      - src: Philip Mallis 01.jpg
+      - src: Philip Mallis 02.jpg
 -
     owner: Daniel Huffman
     link: https://somethingaboutmaps.com/Storefront
@@ -221,7 +221,7 @@
       - conservation
     images:
       - src: Ezra Schwartzberg 01.jpg
-      - src: Ezra Schwartzberg 02.png
+      - src: Ezra Schwartzberg 02.jpg
       - src: Ezra Schwartzberg 03.jpg
 -
     owner: Jo Hannah Asetre
@@ -249,9 +249,9 @@
       - transit 
       - urban
     images:
-      - src: Tim Van den Thillart 01.png
-      - src: Tim Van den Thillart 02.png
-      - src: Tim Van den Thillart 03.png
+      - src: Tim Van den Thillart 01.jpg
+      - src: Tim Van den Thillart 02.jpg
+      - src: Tim Van den Thillart 03.jpg
 -
     owner: Andrew Douglas-Clifford
     link: https://www.andrewdc.co.nz/mapkiwi-store/
@@ -263,9 +263,9 @@
       - New Zealand 
       - posters
     images:
-      - src: Andrew Douglas-Clifford 01.png
-      - src: Andrew Douglas-Clifford 02.png
-      - src: Andrew Douglas-Clifford 03.png
+      - src: Andrew Douglas-Clifford 01.jpg
+      - src: Andrew Douglas-Clifford 02.jpg
+      - src: Andrew Douglas-Clifford 03.jpg
 -
     owner: Jug Cerovic
     link: https://www.redbubble.com/people/jugcerovic/shop
@@ -338,3 +338,63 @@
       - src: Derek Holmer 01.jpg
       - src: Derek Holmer 02.jpg
       - src: Derek Holmer 03.jpg
+
+-
+    owner: Fabian
+    link: https://kartografisches.at
+    name: kartografisches.at
+    description: |
+      Experimental cartography - from Austrian archives, combined with contemporary open source height data. High quality art prints on fine art paper.
+    tags:
+      - artwork
+      - terrain 
+      - prints
+    images:
+      - src: Fabian 01.jpg
+      - src: Fabian 02.jpg
+      - src: Fabian 03.jpg
+
+-
+    owner: Candice Luebbering 
+    link: https://www.allmappedout.co/
+    name: All Mapped Out
+    description: |
+      Maps repurposed into one-of-a-kind coasters and magnets featuring cities, countries, national parks, and more all over the world. Sources range from the 1890s to present day and source information is handwritten on the back of each coaster item so you know its origin.
+    tags:
+      - home goods
+      - handmade 
+      - repurposed
+    images:
+      - src: Candice Luebbering 01.jpg
+      - src: Candice Luebbering 02.jpg
+      - src: Candice Luebbering 03.jpg
+
+-
+    owner: Alex Buisse 
+    link: https://www.montblanclines.com
+    name: Mont Blanc Lines
+    description: |
+      Climbing and skiing lines drawn on the most iconic peaks and cliffs in the world.
+    tags:
+      - climbing
+      - skiing 
+      - terrain
+    images:
+      - src: Alex Buisse 01.jpg
+      - src: Alex Buisse 02.jpg
+      - src: Alex Buisse 03.jpg
+
+-
+    owner: Tomo Bacinger 
+    link: https://hicsuntdraconesmaps.etsy.com
+    name: Hic Sunt Dracones Maps
+    description: |
+      High-resolution satellite maps are created using Sentinel-2 imagery and enhanced with shaded relief maps using DEM data to get a 3D-like visual perspective of a real-world terrain. 🛰️ Where space science meets art 🗺️
+    tags:
+      - satellite
+      - posters 
+      - terrain
+    images:
+      - src: Tomislav Bacinger 01 01.jpg
+      - src: Tomislav Bacinger 01 02.jpg
+      - src: Tomislav Bacinger 01 03.jpg
