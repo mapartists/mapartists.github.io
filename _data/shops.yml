@@ -309,3 +309,32 @@
       - src: Mike Hall 01.jpg
       - src: Mike Hall 02.jpg
       - src: Mike Hall 03.jpg
+-
+    owner: David Medeiros
+    link: https://www.etsy.com/shop/MapBliss
+    name: MapBliss
+    description: |
+      Custom map art including posters, stickers, and digital map assets. Subjects vary, most work is semi abstract.
+    tags:
+      - posters
+      - stickers 
+      - artwork
+    images:
+      - src: David Medeiros 01.jpg
+      - src: David Medeiros 02.jpg
+      - src: David Medeiros 03.jpg
+
+-
+    owner: Derek Holmer
+    link: https://wayfinddesigns.square.site/
+    name: WayfindDesigns
+    description: |
+      Finding the art in cartography, the style in symbols, and the drama in data. We design transit-themed wall prints, maps, and t-shirts.
+    tags:
+      - posters
+      - transit 
+      - apparel
+    images:
+      - src: Derek Holmer 01.jpg
+      - src: Derek Holmer 02.jpg
+      - src: Derek Holmer 03.jpg
