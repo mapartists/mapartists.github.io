@@ -25,6 +25,8 @@ descriptionmeta: >- # this means to ignore newlines until "baseurl:"
 subtitle: A shopping guide offered by the <strong>Independent Map Artists</strong>
 description: >
   Interested in buying something special for the map enthusiasts in your life (or yourself)? Skip the giant companies and go straight to the source: there are loads of skilled, independent cartographers out there whose work you can buy!
+  Questions or comments? Reach out to <a href="mailto:somethingaboutmaps@gmail.com">somethingaboutmaps@gmail.com</a>.
+  Want to be on this list? Fill out <a href="https://forms.gle/G34DNRgPRhKhE5sPA">this form</a> and we'll get back to you.
 domain: mapartists.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
