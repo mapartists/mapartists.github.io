@@ -413,3 +413,18 @@
       - src: Andrew Smithers 01.jpg
       - src: Andrew Smithers 02.jpg
       - src: Andrew Smithers 03.jpg
+
+-
+    owner: Patrick Stotz
+    link: https://www.letsmakeamap.com
+    name: Let's make a map
+    description: |
+      Let's make a map is a blog about beautiful maps and how to make them. The maps are designed as posters, but are available for download, so you can use them however you intend.
+    tags:
+      - artwork
+      - posters 
+      - urban
+    images:
+      - src: Patrick Stotz 01.jpg
+      - src: Patrick Stotz 02.jpg
+      - src: Patrick Stotz 03.jpg
