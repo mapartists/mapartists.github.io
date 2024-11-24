@@ -428,3 +428,32 @@
       - src: Patrick Stotz 01.jpg
       - src: Patrick Stotz 02.jpg
       - src: Patrick Stotz 03.jpg
+
+-
+    owner: Tom Weatherburn
+    link: https://www.mapto.ca/store
+    name: mapTO Map Store
+    description: |
+      mapTO produces map prints of Toronto and Ontario across themes like natural, urban and transportation geography
+    tags:
+      - artwork
+      - elevation 
+      - transit
+    images:
+      - src: Tom Weatherburn 01.jpg
+      - src: Tom Weatherburn 02.jpg
+      - src: Tom Weatherburn 03.jpg
+
+-
+    owner: Andrew Lynch
+    link: https://www.vanmaps.com
+    name: vanmaps by vanshnookenraggen
+    description: |
+      Minimalist transit maps, including large scale track maps.
+    tags:
+      - artwork 
+      - transit
+    images:
+      - src: Andrew Lynch 01.jpg
+      - src: Andrew Lynch 02.jpg
+      - src: Andrew Lynch 03.jpg
