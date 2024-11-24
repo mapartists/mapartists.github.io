@@ -35,7 +35,7 @@
             <div class="tag-list">
                 <h3>Find shops by tag <button class="tag-list-toggle"></button></h3>
                 <div class="tag-buttons">
-                    {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+                    {% assign tags =  site.data.shops | map: 'tags' | join: ','  | split: ',' | uniq | sort_natural %}
                     {% for tag in tags %}
                     <button class="tag">{{tag}} </button>
                     {% endfor %}
