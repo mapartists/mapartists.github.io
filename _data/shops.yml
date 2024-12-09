@@ -503,3 +503,32 @@
       - src: Michael Calcagno 01.jpg
       - src: Michael Calcagno 02.jpg
       - src: Michael Calcagno 03.jpg
+
+-
+    owner: Stefan Freelan
+    link: https://www.stefanfreelan.com/salishsea
+    name: Stefan's Maps
+    description: |
+      Best known for his Map of the Salish Sea (created as part of the successful campaign to have the name Salish Sea officially adopted), Stefan creates web and static maps. 
+    tags:
+      - artwork 
+      - Salish Sea
+      - posters
+    images:
+      - src: Stefan Freelan 01.jpg
+      - src: Stefan Freelan 02.jpg
+
+-
+    owner: Sebas van den Brink
+    link: https://studiolegenda.com
+    name: Studio Legenda
+    description: |
+      Transit maps, crossover maps, and various infographics made by Sebas van den Brink aka Studio Legenda. And free stickers. 
+    tags:
+      - artwork 
+      - infographics
+      - posters
+    images:
+      - src: Sebas van den Brink 01.jpg
+      - src: Sebas van den Brink 02.jpg
+      - src: Sebas van den Brink 03.jpg
