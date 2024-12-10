@@ -547,3 +547,34 @@
       - src: Denis Vannier 01.jpg
       - src: Denis Vannier 02.jpg
       - src: Denis Vannier 03.jpg
+
+-
+    owner: Yohan ALAZET
+    link: https://www.boilise.com
+    name: BOILISÉ
+    description: |
+      BOILISÉ creates eco-friendly wooden maps that transform contour lines into 3D art. With scaled elevations and layered plywood, the abstract style invites map lovers to share stories as they situate themselves. 
+    tags:
+      - wood
+      - handmade
+      - elevation
+    images:
+      - src: Yohan Alazet 01.jpg
+      - src: Yohan Alazet 02.jpg
+      - src: Yohan Alazet 03.jpg
+
+
+-
+    owner: Loris Grillet
+    link: https://www.kumocorp.ch/boutique
+    name: Kumo Design Corp.
+    description: |
+      Loris Grillet is a Swiss illustrator with an obsession for trains and maps. His work celebrates railways (mostly Swiss) in a colourful and playful design full of details and delight. 
+    tags:
+      - posters
+      - transport
+      - travel
+    images:
+      - src: Loris Grillet 01.jpg
+      - src: Loris Grillet 02.jpg
+      - src: Loris Grillet 03.jpg
