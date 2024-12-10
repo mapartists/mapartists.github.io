@@ -532,3 +532,18 @@
       - src: Sebas van den Brink 01.jpg
       - src: Sebas van den Brink 02.jpg
       - src: Sebas van den Brink 03.jpg
+
+-
+    owner: Denis Vannier
+    link: https://boutique.leplan.studio/
+    name: Le Plan Studio
+    description: |
+      Le Plan Studio is a french "geodatajournalism" studio created by Denis Vannier, who also provide artisanal printings of deserts and rivers landscapes revealed by digital elevation models (IGN, Copernicus, USGS). 
+    tags:
+      - terrain 
+      - rivers
+      - deserts
+    images:
+      - src: Denis Vannier 01.jpg
+      - src: Denis Vannier 02.jpg
+      - src: Denis Vannier 03.jpg
