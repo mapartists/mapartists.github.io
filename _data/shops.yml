@@ -609,3 +609,18 @@
       - src: Eleanor Mohren 01.jpg
       - src: Eleanor Mohren 02.jpg
       - src: Eleanor Mohren 03.jpg
+
+-
+    owner: Monty Beaumont
+    link: https://mapelio.com
+    name: Mapelio
+    description: |
+      Founded in 2020, Mapelio brings together the artistic beauty of our natural landscapes and 21st century cartography to create artwork designed to elevate any space.
+    tags:
+      - artwork
+      - posters
+      - terrain
+    images:
+      - src: Monty Beaumont 01.jpg
+      - src: Monty Beaumont 02.jpg
+      - src: Monty Beaumont 03.jpg
