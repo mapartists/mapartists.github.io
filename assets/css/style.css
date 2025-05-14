@@ -21,6 +21,18 @@ strong {
     font-weight: 300;
 }
 
+div.banner {
+    background: #7f7f7f;
+    width: 100%;
+    text-align: CENTER;
+    font-size: 2em;
+    padding: 5px 0;
+}
+
+div.banner a {
+    color: #333;
+}
+
 div.site-wrapper {
     display: flex;
     flex-direction: column;
@@ -292,6 +304,12 @@ button.tag.active {
 
 button.tag-list-toggle {
     display: none;
+}
+
+@media (max-width: 600px) {
+    div.banner { 
+        font-size: 1.2em;
+    }
 }
 
 @media (max-width: 500px) {
