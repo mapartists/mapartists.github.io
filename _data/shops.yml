@@ -180,7 +180,7 @@
       - src: Juernjakob Dugge 02.jpg
       - src: Juernjakob Dugge 03.jpg
 
--
+#-
     #owner: Andy Woodruff
     #link: https://andysmaps.bigcartel.com/
     #name: Andy Woodruff Cartography
@@ -639,3 +639,18 @@
       - src: Jen Urso 01.jpg
       - src: Jen Urso 02.jpg
       - src: Jen Urso 03.jpg
+
+-
+    owner: Cathy Connor
+    link: cathy@runwithitcreative.com
+    name: RunWithItCreative
+    description: |
+      I’m a runner/artist specializing in pen & ink and watercolor, with a passion for capturing neighborhood maps, park maps and marathon routes. Each piece is thoughtfully created to celebrate the places and experiences that move us. 
+    tags:
+      - marathon
+      - artwork
+      - neighborhood
+    images:
+      - src: Cathy Connor 01.jpg
+      - src: Cathy Connor 02.jpg
+      - src: Cathy Connor 03.jpg
