@@ -180,20 +180,20 @@
       - src: Juernjakob Dugge 02.jpg
       - src: Juernjakob Dugge 03.jpg
 
-#-
-    #owner: Andy Woodruff
-    #link: https://andysmaps.bigcartel.com/
-    #name: Andy Woodruff Cartography
-    #description: |
-    #  Any maps that Andy makes and thinks might be nice on your wall, but primarily ones featuring terrain in a feathery, flowing style.
-    #tags:
-    #  - terrain
-    #  - mountains 
-    #  - posters
-    #images:
-    #  - src: Andy Woodruff 01.jpg
-    #  - src: Andy Woodruff 02.jpg
-    #  - src: Andy Woodruff 03.jpg
+-
+    owner: Andy Woodruff
+    link: https://andysmaps.bigcartel.com/
+    name: Andy Woodruff Cartography
+    description: |
+      Any maps that Andy makes and thinks might be nice on your wall, but primarily ones featuring terrain in a feathery, flowing style.
+    tags:
+      - terrain
+      - mountains 
+      - posters
+    images:
+      - src: Andy Woodruff 01.jpg
+      - src: Andy Woodruff 02.jpg
+      - src: Andy Woodruff 03.jpg
 
 -
     owner: Jeff Clark
