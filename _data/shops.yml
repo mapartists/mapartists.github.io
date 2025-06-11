@@ -642,7 +642,7 @@
 
 -
     owner: Cathy Connor
-    link: cathy@runwithitcreative.com
+    link: https://www.etsy.com/shop/runwithitcreative
     name: RunWithItCreative
     description: |
       I’m a runner/artist specializing in pen & ink and watercolor, with a passion for capturing neighborhood maps, park maps and marathon routes. Each piece is thoughtfully created to celebrate the places and experiences that move us. 
@@ -654,3 +654,18 @@
       - src: Cathy Connor 01.jpg
       - src: Cathy Connor 02.jpg
       - src: Cathy Connor 03.jpg
+
+-
+    owner: Courtney Edwards
+    link: https://www.cdedwards.com
+    name: CDEdwards Mapping
+    description: |
+      Maps for Waterpeople made by a waterperson. Ocean-focused maps that honor the grit of the working mariner and the spirit of the ocean adventurer. For people who live, work, and play on the water, and those who wish they did that more. Stay salty!
+    tags:
+      - ocean
+      - travel
+      - posters
+    images:
+      - src: Courtney Edwards 01.jpg
+      - src: Courtney Edwards 02.jpg
+      - src: Courtney Edwards 03.jpg
