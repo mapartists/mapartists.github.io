@@ -684,3 +684,18 @@
       - src: Maddy Grubb 01.jpg
       - src: Maddy Grubb 02.jpg
       - src: Maddy Grubb 03.jpg
+
+-
+    owner: Sophie Navas
+    link: https://www.finke.fr
+    name: Finke
+    description: |
+      Finke is an independent store selling maps of France. The online store specializes in maps of the different regions of France, with antique maps, hydrological and geological maps, and illustrated maps of French natural parks.
+    tags:
+      - posters
+      - artwork
+      - mountains
+    images:
+      - src: Sophie Navas 01.jpg
+      - src: Sophie Navas 02.jpg
+      - src: Sophie Navas 03.jpg
