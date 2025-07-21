@@ -699,3 +699,18 @@
       - src: Sophie Navas 01.jpg
       - src: Sophie Navas 02.jpg
       - src: Sophie Navas 03.jpg
+
+-
+    owner: Maxim Rylov
+    link: https://boundlessmaps.com
+    name: Boundless Maps
+    description: |
+      Boundless Maps excels in automated cartography. We produce high-quality, affordable vector maps ranging from detailed topographic designs to intricate urban plans. Our maps are crafted to meet the needs of designers, architects and city planners.
+    tags:
+      - terrain
+      - urban
+      - vector
+    images:
+      - src: Maxim Rylov 01.jpg
+      - src: Maxim Rylov 02.jpg
+      - src: Maxim Rylov 03.jpg
