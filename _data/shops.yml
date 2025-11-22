@@ -714,3 +714,17 @@
       - src: Maxim Rylov 01.jpg
       - src: Maxim Rylov 02.jpg
       - src: Maxim Rylov 03.jpg
+
+-
+    owner: Tim Wallace
+    link: https://www.timwallace.art/
+    name: Tim Wallace
+    description: |
+      Limited run art inspired by Earth, putting a modern spin on traditional pen and ink by using code, design software, and a pen plotter. Each piece uniquely captures our planet's diverse landscapes, physical and abstract. Look out for vintage maps too.
+    tags:
+      - terrain
+      - art
+      - minimal
+    images:
+      - src: Tim Wallace 01.jpg
+      - src: Tim Wallace 02.jpg
