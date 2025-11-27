@@ -728,3 +728,17 @@
     images:
       - src: Tim Wallace 01.jpg
       - src: Tim Wallace 02.jpg
+
+-
+    owner: Molly O'Halloran
+    link: https://www.mollyohalloran.com/shop
+    name: Molly O'Halloran Prints
+    description: |
+      Fine art prints of selected hand-drawn and painted maps.
+    tags:
+      - handmade
+      - artwork
+      - conservation
+    images:
+      - src: Molly O'Halloran 01.jpg
+      - src: Molly O'Halloran 02.jpg
