@@ -757,3 +757,17 @@
       - src: Alison DeGraff Ollivierre 01.jpg
       - src: Alison DeGraff Ollivierre 02.jpg
       - src: Alison DeGraff Ollivierre 03.jpg
+
+-
+    owner: Anna Riling
+    link: https://www.fourcornersmapping.com/store
+    name: Geologic Trail Maps of the Grand Canyon
+    description: |
+      The Geologic Trail Maps of the Grand Canyon combine the best of two worlds: geology and hiking! Part geologic guidebook, part topographic trail map, they provide a succinct geologic summary in a lightweight, waterproof, and tear resistant map.
+    tags:
+      - hiking
+      - geology
+    images:
+      - src: Anna Riling 01.jpg
+      - src: Anna Riling 02.jpg
+      - src: Anna Riling 03.jpg
