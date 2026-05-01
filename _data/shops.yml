@@ -802,3 +802,18 @@
       - src: Robert Szucs 01.jpg
       - src: Robert Szucs 02.jpg
       - src: Robert Szucs 03.jpg
+
+-
+    owner: Jelmer Visser
+    link: https://www.kaartenhuis.shop/
+    name: Kaartenhuis
+    description: |
+        Hi-res city maps with Unique color palettes and effects, vintage geological maps, hillshades with a twist, mostly Dutch regions and Cities.  
+    tags:
+      - urban
+      - terrain
+      - posters
+    images:
+      - src: Jelmer Visser 01.jpg
+      - src: Jelmer Visser 02.jpg
+      - src: Jelmer Visser 03.jpg
