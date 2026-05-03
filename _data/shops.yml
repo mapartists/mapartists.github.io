@@ -817,3 +817,17 @@
       - src: Jelmer Visser 01.png
       - src: Jelmer Visser 02.png
       - src: Jelmer Visser 03.png
+-
+    owner: Nathan Taylor
+    link: https://snowmoonmaps.com/
+    name: Snow Moon Maps
+    description: |
+        Cartographic art prints, posters and designs featuring mountain landscapes primarily for western Montana and Glacier National Park  
+    tags:
+      - mountain
+      - hiking
+      - posters
+    images:
+      - src: Nathan Taylor 01.jpg
+      - src: Nathan Taylor 02.jpg
+      - src: Nathan Taylor 03.jpg
