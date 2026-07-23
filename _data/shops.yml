@@ -861,3 +861,19 @@
       - src: Goran Jovanovic 01.jpg
       - src: Goran Jovanovic 02.jpg
       - src: Goran Jovanovic 03.jpg
+
+
+-
+    owner: David Alexander
+    link: https://bluemonocle.com
+    name: Blue Monocle Maps
+    description: |
+        Blue Monocle Maps is a map design studio and print shop that creates archival prints of unique modern and vintage-inspired map art. 
+    tags:
+      - vintage
+      - prints
+      - artwork
+    images:
+      - src: David Alexander 01.jpg
+      - src: David Alexander 02.jpg
+      - src: David Alexander 03.jpg
