@@ -892,3 +892,18 @@
       - src: SaraKA 01.jpg
       - src: SaraKA 02.jpg
       - src: SaraKA 03.jpg
+
+-
+    owner: Nikita Slavin
+    link: https://kontikimaps.com/shop
+    name: Kon-Tiki Maps
+    description: |
+        Kon-Tiki Maps: an award-winning independent map publishing house. The World Painted, a labour of love, is the world in hand-painted watercolour with 2,051 labels, a map for a living room or a kid's room. It even glows in the dark.
+    tags:
+      - watercolor
+      - hand-painted
+      - world
+    images:
+      - src: Nikita Slavin 01.jpg
+      - src: Nikita Slavin 02.jpg
+      - src: Nikita Slavin 03.jpg
