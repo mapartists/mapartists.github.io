@@ -84,20 +84,6 @@
       - src: Jeremy Goldsmith 02.jpg
       - src: Jeremy Goldsmith 03.jpg
 -
-    owner: William Morris
-    link: https://geosprocket.bigcartel.com/
-    name: Geosprocket Planet
-    description: |
-      A reimagining of satellite views of Earth. Cubist landscapes, built with advanced computational tools.
-    tags:
-      - satellite
-      - artwork 
-      - posters
-    images:
-      - src: Bill Morris 01.jpg
-      - src: Bill Morris 02.jpg
-      - src: Bill Morris 03.jpg
--
     owner: RJ Andrews
     link: https://visionarypress.com/
     name: Visionary Press
